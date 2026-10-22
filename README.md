@@ -52,6 +52,12 @@ tic-tac-toe/
 - Practiced conditional logic and DOM manipulation
 - Implemented game-winning and draw conditions
 
+
+## 🎮 Live Demo
+
+Play the game online: [Tic-Tac-Toe](https://manunaik1126.github.io/tic-tac-toe/)
+
+
 ## 👨‍💻 Author
 
 **Manoj Irayya Naik**
