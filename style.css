@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  background-color: #FF6500;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+h1 {
+  margin: 1rem;
+  color: white;
+}
+
+.container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+  background-color: rgb(6, 244, 200);
+  font-size: 8vmin;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.box:hover {
+  background-color: #4fffe3;
+}
+
+.reset, .new, .theme-toggle {
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 0.7rem;
+  font-size: 1.25rem;
+  border: none;
+  background-color: #1E3E62;
+  color: #fff;
+  cursor: pointer;
+}
+
+.reset:hover, .new:hover, .theme-toggle:hover {
+  background-color: #16324a;
+}
+
+#msg {
+  font-size: 5vmin;
+  color: aqua;
+  margin-bottom: 1rem;
+}
+
+.msg-container {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.msg-container.show {
+  display: flex;
+}
+
+.score-board {
+  font-size: 1.5rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
